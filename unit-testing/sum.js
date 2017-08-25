@@ -1,5 +1,5 @@
 function equals(got, expected) {
-  if(got === expected) {
+  if (got === expected) {
     console.log("✔︎ Passed");
     console.log();
   } else {
@@ -21,5 +21,9 @@ sure it works!
 
 function sum(a, b) {
   var result = a + b;
-  console.log("The sum is " + result);
+  return result;
 }
+
+
+
+
